@@ -1,0 +1,7 @@
+1. Error in shiftReg1 : shiftReg is a wire which is not a valid l-value for a procedural assignment
+
+2. Error in shiftReg2 :  shiftReg <= {din, shiftReg[3:1]}; this line shifts the value in register to the right and assigns d input to the MSB which is the opposite of what we want
+
+3. Error in shiftReg3 : shiftReg is a register and reg types must be assigned values inside a procedural block like always using <= 
+
+4. Error in shiftReg4 : the else block was missing
